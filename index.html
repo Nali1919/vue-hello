@@ -15,12 +15,21 @@
 
 <body>
     <div id="root">
-        <h1>{{text}}</h1>
-        <img :src="image" alt="img/01.jpg">
-        <img :src="image" alt="img/02.jpg">
-        <img :src="image" alt="img/03.jpg">
-        <img :src="image" alt="img/04.jpg">
-        <img :src="image" alt="img/05.jpg">
+        <div>
+
+            <h1 :class="classeH1">{{text}}</h1>
+
+        </div>
+
+        <div class="container">
+            <img :src="image" alt="img/01.jpg">
+            <img :src="image2" alt="img/02.jpg">
+            <img :src="image3" alt="img/03.jpg">
+            <img :src="image4" alt="img/04.jpg">
+            <img :src="image5" alt="img/05.jpg">
+
+        </div>
+
 
     </div>
 </body>
