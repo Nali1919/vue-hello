@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -7,9 +11,17 @@
 
 img {
     width: 50%;
+    border-radius: 15px;
+}
+
+img:hover {
+    filter: sepia(100);
+    scale: 0.6;
+    transition: 2s;
 }
 
 .skin-h1 {
-    color: blue;
+    color: purple;
     text-align: center;
+    font-size: 50px;
 }
